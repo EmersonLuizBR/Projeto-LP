@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    font-family: Inter;
+}
+#logo{
+    margin-left: 75px;
+    margin-top: 50px;
+}
+#titulo-menuprincipal{ 
+    margin-left: 200px;
+    margin-top: 50px;
+
+}
+#sub-titulo-menupricipal{
+margin-left: 200px;
+margin-top: 25px;
+padding-bottom: 50px;
+}
+#menusuperior{
+    background-image: url(imagens/Fundo-menusuperior.svg);
+    color: aliceblue;
+    background-size: 100%;
+    
+}
+#menuinformativo{
+background-color: #EAECE5;
+display: grid;
+grid-auto-flow: column;
+columns: auto;
+}
+.icones{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+.textinfo{
+    display: flex;
+    align-items: center;
+}
+#titulovideo{
+    color: #247BA0;
+    margin-top: 50px;
+
+}
+.secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+    
+}
+
+#titulo-carrossel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    
+}
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-top: 25px;
+    
+}
+.card{
+  margin-left: 50px;
+}
+#Bruna{
+    display: none;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+.seta{
+    margin-left: 25px;
+    margin-top: 55%;
+    cursor: pointer;
+   
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition: 0,3s;
+}
+#formulario{
+text-align: center;
+margin: 25px;
+color: #383838;
+
+
+}
+#titulo-formulario{
+font-size: 25px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 15px;
+
+}
+button{
+background-color: #247BA0;
+height: 40px;
+width: 250px;
+border: 0px;
+border-radius: 5px;
+margin-bottom: 50px;
+font-weight: bolder;
+color: #EAECE5;
+cursor: pointer;
+
+}
+button:hover{
+    background: #5cb0d4;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #40527a86;
+    transition-duration: 0.5s;
+}
+
